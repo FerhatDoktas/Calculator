@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.container {
+    width: 20rem;
+    height: 35rem;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+    border-radius: 50px;
+    margin: 1rem auto;
+    padding: 2rem;
+}
+
+.tustakimi {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    height: 20rem;
+    width: 17rem;
+}
+
+.tus{
+    background-color: rgba(128, 128, 128, 0.26);
+    color: white;
+    border-radius: 100%;
+    font-size: 2rem;
+}
+
+.tus17{
+    grid-column: span 2;
+    border-radius: 3rem;
+}
+
+.tus1, .tus2, .tus3 {
+    background-color: rgb(148, 145, 145);
+    color: black;
+}
+
+.tus4, .tus8, .tus12, .tus16, .tus19 {
+    background-color: rgba(204, 113, 60, 0.774);
+}
+
+.tus:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.ekran {
+    font-size: 4rem;
+    display: grid;
+    flex-direction: column;
+    text-align: end;
+}
